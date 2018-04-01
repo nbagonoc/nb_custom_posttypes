@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: MyPlugin
+Plugin Name: NB Custom Post Types and Taxonomies
 Description: A starter plugin template.
 Plugin URI:  https://nbagonoc.com/
 Author:      Niccu Bagonoc
