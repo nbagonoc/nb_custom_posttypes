@@ -17,7 +17,6 @@ function nb_custom_post_types(){
         'not_found'          => 'No testimonials found.',
         'not_found_in_trash' => 'No testimonials found in Trash.',
     );
-    
     $args = array(
         'labels'             => $labels,
         'public'             => true,
@@ -31,7 +30,8 @@ function nb_custom_post_types(){
         'has_archive'        => true,
         'hierarchical'       => false,
         'menu_position'      => 5,
-        'supports'           => array( 'title', 'editor', 'thumbnail' )
+        'supports'           => array( 'title', 'editor', 'thumbnail' ),
+        'taxonomies'         => array('category','post-tag')
     );
     register_post_type('testimonials', $args);
 }
